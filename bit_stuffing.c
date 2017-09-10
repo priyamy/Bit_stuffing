@@ -6,7 +6,7 @@ void main()
 { 
   int i,j,count=0;
   clrscr();
-  printf("Enter the bit string to be sent\n");
+  printf("Enter the bit stream to be sent\n");
   gets(str);                                   /*Input the string entered by user */ 
   j=0; for(i=0;str[i]!='\0';i++)
   {
@@ -23,6 +23,6 @@ void main()
     j++;
   }
   printf("\nAfter bit stuffing the string becomes\n");
-  puts(bit_stuff);                  /*Display the stuffed string*/
+  puts(bit_stuff);                  /*Display the stuffed bit stream*/
   getch();
 }
